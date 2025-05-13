@@ -1,18 +1,24 @@
-version: '3.8'
-
 services:
   postgres:
     image: postgres:15
-    container_name: taskdb_postgres
-    restart: always
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: taskdb
+      POSTGRES_DB: taskmanager
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./uploads:/app/uploads
 
 volumes:
   postgres_data:
