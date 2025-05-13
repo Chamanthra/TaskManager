@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	"github.com/Chamanthra/TaskManagmentSystem/models"
+	"github.com/Chamanthra/TaskManager/models"
 	"gorm.io/gorm"
 )
 
