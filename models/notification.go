@@ -1,4 +1,3 @@
-// In models/notification.go
 package models
 
 import "time"

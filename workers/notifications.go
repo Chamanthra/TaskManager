@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Chamanthra/TaskManagmentSystem/config"
-	"github.com/Chamanthra/TaskManagmentSystem/models"
+	"github.com/Chamanthra/TaskManager/config"
+	"github.com/Chamanthra/TaskManager/models"
 )
 
 func StartNotificationWorker() {

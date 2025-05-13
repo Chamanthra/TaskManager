@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Chamanthra/TaskManagmentSystem/models"
+	"github.com/Chamanthra/TaskManager/models"
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

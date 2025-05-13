@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/Chamanthra/TaskManagmentSystem/config"
-	"github.com/Chamanthra/TaskManagmentSystem/models"
+	"github.com/Chamanthra/TaskManager/config"
+	"github.com/Chamanthra/TaskManager/models"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"
 )

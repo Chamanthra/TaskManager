@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/Chamanthra/TaskManagmentSystem/config"
-	"github.com/Chamanthra/TaskManagmentSystem/models"
-	"github.com/Chamanthra/TaskManagmentSystem/utils"
+	"github.com/Chamanthra/TaskManager/config"
+	"github.com/Chamanthra/TaskManager/models"
+	"github.com/Chamanthra/TaskManager/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 	"gorm.io/gorm"

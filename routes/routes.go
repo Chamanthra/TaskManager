@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/Chamanthra/TaskManagmentSystem/controllers"
-	"github.com/Chamanthra/TaskManagmentSystem/middlewares"
+	"github.com/Chamanthra/TaskManager/controllers"
+	"github.com/Chamanthra/TaskManager/middlewares"
 	"github.com/gin-gonic/gin"
 )
 

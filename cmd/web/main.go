@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/Chamanthra/TaskManagmentSystem/config"
-	"github.com/Chamanthra/TaskManagmentSystem/migrations"
-	"github.com/Chamanthra/TaskManagmentSystem/models"
-	"github.com/Chamanthra/TaskManagmentSystem/routes"
-	"github.com/Chamanthra/TaskManagmentSystem/workers"
+	"github.com/Chamanthra/TaskManager/config"
+	"github.com/Chamanthra/TaskManager/migrations"
+	"github.com/Chamanthra/TaskManager/models"
+	"github.com/Chamanthra/TaskManager/routes"
+	"github.com/Chamanthra/TaskManager/workers"
 )
 
 func main() {
